@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Guitar Lessons</title>
+  <meta name="description" content="Лучший репетитор игры на гитаре">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./src/icons/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./src/icons/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./src/icons/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./src/icons/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./src/icons/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./src/icons/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./src/icons/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./src/icons/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./src/icons/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./src/icons/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/icons/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./src/icons/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/icons/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./src/icons/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./src/icons/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+  <!-- Первая секция -->
+  <section class="main-section">
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="container main-section__nav-container">
+      <!-- Навигационное меню -->
+      <header class="main-section__header">
+        <a href="#"><img class="main-section__logo" src="./src/icons/logo.svg" alt=""></a>
+      </header>
+      <nav class="main-section__nav nav-menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__list-item"><a href="#about-me">
+              About me
+            </a></li>
+          <li class="nav-menu__list-item"><a href="#lessons">
+              Lessons
+            </a></li>
+          <li class="nav-menu__list-item"><a href="#">
+              Enroll
+            </a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="container main-section__content-container">
+      <!-- Левая часть первой секции -->
+      <div class="left-wrapper">
+        <img src="./src/img/guitar-man-photo.png" alt="Фото гитариста" class="left-wrapper__img">
+        <div class="left-wrapper__rectangle-blue"></div>
+        <div class="left-wrapper__rectangle-orange"></div>
+        <div class="left-wrapper__rectangle-grey"></div>
+      </div>
+      <!-- Правая часть первой секции -->
+      <div class="right-wrapper">
+        <div class="right-wrapper__icons-box icons">
+          <div class="icons__item">
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+          <div class="icons__item">
+            <i class="fa-brands fa-skype"></i>
+          </div>
+          <div class="icons__item">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="icons__item">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <h1 class="right-wrapper__title title">I'm Daniel
+          <hr class="title__hr">
+        </h1>
+
+        <p class="right-wrapper__text">With me you'll learn string names, how to tune, and good technique for playing
+          your first notes.</p>
+
+        <div class="right-wrapper__button buttons">
+          <button class="buttons__main-btn">Book a lesson</button>
+          <div class="right-wrapper__icon-btn buttons__icon-btn">
+            <img src="./src/icons/icon-chat.svg" alt="Chat">
+            <p class="buttons__text">Have <br>questions?</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 
+  elipse - стилизуем этот класс
+  main-section__first-elipse - используем 
+  для позиционирования
+-->
+      <div class="main-section__first-elipse elipse">
+        <div class="elipse__subtract"></div>
+      </div>
+    </div>
+
+    <div class="main-section__second-elipse elipse elipse_big">
+      <div class="elipse__subtract elipse__subtract_big"></div>
+    </div>
+  </section>
+
+  <!-- Вторая секция -->
+  <section id="about-me" class="second-section">
+    <div class="container second-section__container">
+      <!-- Заголовок -->
+      <h2 class="second-section__title title"> Teaching
+        <hr class="title__hr">
+      </h2>
+      <!-- Карточки -->
+      <div class="second-section__cards-box">
+        <div class="second-section__cards-item cards-item">
+          <img class="cards-item__img" src="./src/img/electro.png" alt="Электро гитара">
+          <p class="cards-item__text">Electro <br>
+            guitar</p>
+        </div>
+
+        <div class="second-section__cards-item cards-item cards-item_orange">
+          <img class="cards-item__img" src="./src/img/acustic.png" alt="Электро гитара">
+          <p class="cards-item__text">Acoustic
+            <br> guitar
+          </p>
+        </div>
+
+        <div class="second-section__cards-item cards-item cards-item_blue">
+          <img class="cards-item__img" src="./src/img/ukulele.png" alt="Электро гитара">
+          <p class="cards-item__text">Ukulele <br>
+            guitar</p>
+        </div>
+      </div>
+
+      <!-- Иконки -->
+      <div class="second-section__icons-box icons-box">
+
+        <div class="second-section__icons-item icons-item">
+          <img src="./src/icons/01-icon.svg" alt="кубок" class="icons-item__img">
+          <p class="icons-item__text">
+            <span>7</span><br> years of <br> experience
+          </p>
+        </div>
+        <div class="second-section__icons-item icons-item">
+          <img src="./src/icons/02-icon.svg" alt="кубок" class="icons-item__img">
+          <p class="icons-item__text">
+            <span>2000</span><br> hours of <br> teaching
+          </p>
+        </div>
+        <div class="second-section__icons-item icons-item">
+          <img src="./src/icons/03-icon.svg" alt="кубок" class="icons-item__img">
+          <p class="icons-item__text">
+            <span>314</span><br> students
+          </p>
+        </div>
+        <div class="second-section__icons-item icons-item">
+          <img src="./src/icons/04-icon.svg" alt="кубок" class="icons-item__img">
+          <p class="icons-item__text">
+            <span>276</span><br> reviews <br> for 5 stars
+          </p>
+        </div>
+      </div>
+
+      <!-- Круги -->
+      <div class="second-section__first-elipse elipse">
+        <div class="elipse__subtract elipse__subtract_white"></div>
+      </div>
+      <div class="second-section__second-elipse elipse">
+        <div class="elipse__subtract elipse__subtract_white"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lessons" class="third-section">
+
+    <div class="container third-section__container">
+
+      <div class="third-section__left-wrapper">
+        <h3 class="third-section__left-title title"> Learning
+          <hr class="title__hr">
+        </h3>
+      </div>
+
+      <div class="third-section__right-wrapper">
+        <h4 class="third-section__right-title title"> Guitar <br> Lessons
+          <hr class="title__hr title__hr_top">
+        </h4>
+        <p class="third-section__text">
+          We make learning how to play guitar a lot of fun! Our instructors cover each section of a song slowly at
+          first, and once you get each part down you get to play along with a professional backing band. <br><br> For
+          difficult songs we offer a ‘Songs Made Easy’ version for beginners, which is simplified to the basic chords
+          and one guitar part. Each song includes accurate guitar tabs as well as standard music notation.
+        </p>
+
+        <div class="right-wrapper__button buttons">
+          <button class="buttons__main-btn">Book a lesson</button>
+          <div class="right-wrapper__icon-btn buttons__icon-btn">
+            <img src="./src/icons/icon-chat.svg" alt="Chat">
+            <p class="buttons__text">Have <br> questions?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="third-section__first-elipse elipse elipse_big">
+        <div class="elipse__subtract elipse__subtract_big"></div>
+      </div>
+      <img class="third-section__figure" src="./src/icons/circleCross.svg" alt="Эллипс">
+
+
+    </div>
+
+    <div class="third-section__second-elipse elipse elipse_big">
+      <div class="elipse__subtract elipse__subtract_big"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <img src="./src/img/footer_grif.png" alt="Гриф" class="footer__img">
+      <div class="footer__wrapper">
+        <h5 class="footer__title title"> Enroll for your <br> first lesson
+          <hr class="title__hr title__hr_top">
+        </h5>
+
+        <div class="footer__icons-box icons">
+          <div class="icons__item">
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+          <div class="icons__item">
+            <i class="fa-brands fa-skype"></i>
+          </div>
+          <div class="icons__item">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="icons__item">
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/3dceb3ce04.js" crossorigin="anonymous"></script>
+  <script src="./src/js/script.js"></script>
+</body>
+
+</html>
